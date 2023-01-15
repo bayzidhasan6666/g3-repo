@@ -1,0 +1,220 @@
+/* Bismillahir Rahmanir Rahim */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* navigation style start */
+.navigation{
+    display: flex;
+    gap: 60%;
+    margin-top: 50px;
+}
+@media screen and (max-width:557px) {
+    .img2,.fd,.navigation,.nh,.nm,.a,header.head,.head-btn,.head-btn2,.head-discription,.head-discription2,.head-h,.head-h2,.head2,.a-head{
+        flex-direction: column;
+    }
+}
+.nh{
+    margin-left: 100px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.nm{
+    display: flex;
+    gap: 40px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #131313;
+
+}
+header{
+    width: 100%;
+    background-color:#bcced8;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+    
+}
+/* Head and head description style start */
+.head{
+    text-align: center;
+}
+.head-h{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.head-discription{
+    margin-bottom: 20px;
+}
+.head-btn{
+    background: rgb(252, 88, 59);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    
+}
+/* banner style start */
+.banner{
+    display: flex;
+    width: 960px;
+    height: 640px;
+    margin: 50px auto;
+    border: none;
+
+}
+.banner img{
+    
+}
+/* main 4img style start*/
+.images-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 400px;
+}
+.img2{
+    margin-bottom: 50px;
+}
+
+
+.head-h2{
+    margin-top: 100px;
+    font-size: 45px;
+    color: #727272;
+    margin-right: 400px;
+
+}
+.head-h2 .color1{
+    color: #131313;
+}
+.head-h2 .color2{
+    color: #ff6a30;
+    
+}
+.head-discription2{
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+.head-btn2{
+   background-color: rgb(255, 121, 59);
+   border-radius: 5px;
+   border: none;
+   padding: 10px 15px;
+}
+/* architect styles */
+.architect{
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+
+}
+.a-head{
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+.a-btn{
+    background: rgb(252, 88, 59);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 800px;
+    margin-bottom: 50px;
+}
+.features{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ash{
+    width: 400px;
+    background-color: #bcced8;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgb(207, 193, 193);
+}
+.ash h4{
+    margin-left: 10px;
+    margin-bottom: 10px;
+      
+}
+.ash-d{
+    margin-left: 10px;
+}
+
+.btn3{
+
+}
+/* some facts styles */
+.sfh{
+   text-align: center;
+   margin-bottom: 50px;
+
+}
+.sfh h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* ihp list styles */
+.ihpc{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.ihp{
+    padding: 40px;
+    border: 1px solid #bcced8;
+    border-radius: 8px;
+}
+.ihp:hover{
+    background-color: rgb(255, 76, 76);
+}
+.ihp h3{
+    font-size: 30px;
+}
+
+/* footer styles */
+/* sponsors styles */
+.our-spon{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.spon-h{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.spon-img{
+    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* ending discription */
+/* footer discription */
+.fd{
+   width: 1400px;
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+   background: #bcced8;
+   margin-left: 250px;
+
+}
+
+/* The End,Alhamdulillah */
